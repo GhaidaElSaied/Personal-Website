@@ -1,18 +1,41 @@
 h1 {
   text-align: center;
-  position: absolute;
-  padding: 75px;
-  top: 40%;
-  left: 0;
-  right: 0;
-  text-transform: uppercase;
   font-size: 20px;
   letter-spacing: 5px;
   font-weight: 600;
 }
 
-#sfo {
+.beginning{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sfo{
+  border: 1px solid black;
+  width: 100%;
   text-align: center;
+}
+
+.name{
+  width: 100%;
+  border: 1px solid black;
+}
+
+.name-again{
+  text-align: center;
+  
+}
+
+.redline{
+  border: 1px solid black;
+  width: 100%;
+}
+
+.title-descr{
+  border: 1px solid black;
+  width: 100%;
 }
 
 h2{
@@ -20,7 +43,7 @@ h2{
   font-size: 35px;
   font-family: Raleway;
   top: 60%;
-  padding: 75px;
+  padding: 30px;
 }
 
 
@@ -30,11 +53,76 @@ h2{
   font-weight: normal;
 }
 
+#first {
+width: 25%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 300 100% 'Helvetica Neue', Helvetica, Arial;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  width: 25%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.two:hover ~ hr {
+  margin-left: 25%;
+}
+
+.three:hover ~ hr {
+  margin-left: 50%;
+}
+
+.four:hover ~ hr {
+  margin-left: 75%;
+}
+
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 12px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  height: .25rem;
+  width: 25%;
+  margin: 0;
+  background: red;
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+h3 {
+  font-family: Raleway;
+  text-align: left;
+  font-size: 180px;
+  font-weight: 600;
+}
+
+#grad {
+  width: 100px;
+}
+
+.container{
+  overflow: hidden;
+  border: 1px solid black;
+  position: fixed:
+  top: 0;
+  width 100%;
 }
